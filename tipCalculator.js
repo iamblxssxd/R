@@ -16,21 +16,24 @@ The rating is case insensitive (so "great" = "GREAT"). If an unrecognised rating
 Because you're a nice person, you always round up the tip, regardless of the service.
 */
 
-//Answer//
-
 function calculateTip(a, r) {
-switch(r.toLowerCase()){
-case 'terrible': return 0;
-break;
-case 'poor': return Math.ceil(a/20);
-break;
-case 'good': return Math.ceil(a/10);
-break;
-case 'great': return Math.ceil(a*0.15);
-break;
-case 'excellent': return Math.ceil(a/5);
-break;
-default: return "Rating not recognised"
-
-}
+  switch (r.toLowerCase()) {
+    case "terrible":
+      return 0;
+      break;
+    case "poor":
+      return Math.ceil(a / 20);
+      break;
+    case "good":
+      return Math.ceil(a / 10);
+      break;
+    case "great":
+      return Math.ceil(a * 0.15);
+      break;
+    case "excellent":
+      return Math.ceil(a / 5);
+      break;
+    default:
+      return "Rating not recognised";
+  }
 }
