@@ -31,22 +31,27 @@ Note
 All inputs are valid. Array contains at least 1 digit. Each digit appears at most once.
 */
 
-//Answer//
-
- isValid = a => !(a.includes(1) && a.includes(2)) &&
-                !(a.includes(3) && a.includes(4)) &&
-                a.includes(5) === a.includes(6) &&
-                (a.includes(7) || a.includes(8));
+isValid = (a) =>
+  !(a.includes(1) && a.includes(2)) &&
+  !(a.includes(3) && a.includes(4)) &&
+  a.includes(5) === a.includes(6) &&
+  (a.includes(7) || a.includes(8));
 
 //OR//
 
-function isValid(formula){
-if (formula.indexOf(1)!==-1 && formula.indexOf(2)!==-1){return false
-} else if(
-formula.indexOf(3)!==-1 && formula.indexOf(4)!==-1) {return false
-} else if (
-(formula.indexOf(5)!==-1 && formula.indexOf(6)===-1)||(formula.indexOf(5)===-1 && formula.indexOf(6)!==-1)){return false
-} else if (
-formula.indexOf(7)===-1 && formula.indexOf(8)===-1){return false
-}else{return true}
+function isValid(formula) {
+  if (formula.indexOf(1) !== -1 && formula.indexOf(2) !== -1) {
+    return false;
+  } else if (formula.indexOf(3) !== -1 && formula.indexOf(4) !== -1) {
+    return false;
+  } else if (
+    (formula.indexOf(5) !== -1 && formula.indexOf(6) === -1) ||
+    (formula.indexOf(5) === -1 && formula.indexOf(6) !== -1)
+  ) {
+    return false;
+  } else if (formula.indexOf(7) === -1 && formula.indexOf(8) === -1) {
+    return false;
+  } else {
+    return true;
+  }
 }
