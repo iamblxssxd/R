@@ -14,8 +14,6 @@ A few cases:
 (15, -5, 3)   ->  true
 */
 
-//Answer//
-
 function isDivideBy(n, a, b) {
-return !(n%a)&&!(n%b)
+  return !(n % a) && !(n % b);
 }
