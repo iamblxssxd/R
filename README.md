@@ -14,4 +14,4 @@ Refactoring and optimizing my code is something I do consistently, sometimes for
 
 ## Lessons Learned:
 
-The Biggest Lesson I learned in tackling this endless supply of questions is understanding that there is a long way to go. Not being able to answer a question is okay, as long as you take the initiative to improve.
+In answering these endless questions, I learned that there's a long way to go. I don't mind if I can't answer a question, as long as I take the initiative.
