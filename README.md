@@ -14,4 +14,4 @@ Refactoring and optimizing my code is something I do consistently, sometimes for
 
 ## Lessons Learned:
 
-In answering these endless questions, I learned that there's a long way to go. I don't mind if I can't answer a question, as long as I take the initiative.
+The most important thing I learned from solving this endless amount of questions is that there's a long way to go. Being unable to answer a question is okay, as long as you take the initiative to learn.
