@@ -10,8 +10,6 @@ Numerical Score	Letter Grade
 Tested values are all between 0 and 100. Theres is no need to check for negative values or values greater than 100.
 */
 
-//Answer//
-
 function getGrade(s1, s2, s3) {
   const S = (s1 + s2 + s3) / 3;
   return S < 60 ? "F" : S < 70 ? "D" : S < 80 ? "C" : S < 90 ? "B" : "A";
