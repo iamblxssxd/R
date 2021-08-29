@@ -14,8 +14,6 @@ You can assume that you will always get an array.
 We're testing loops and string manipulation. 
 */
 
-//Answer//
-
 function smash(words) {
   return words.join(" ");
 }
