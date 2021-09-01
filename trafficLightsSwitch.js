@@ -6,29 +6,34 @@ Complete the function that takes a string as an argument representing the curren
 For example, update_light('green') should return 'yellow'.
 */
 
-//Answer//
-
-const updateLight = current => ({
-  green: 'yellow',
-  yellow: 'red',
-  red: 'green',
-})[current]
+const updateLight = (current) =>
+  ({
+    green: "yellow",
+    yellow: "red",
+    red: "green",
+  }[current]);
 
 //OR//
 
 function updateLight(current) {
-  
-  return current === 'yellow' ? 'red' : current === 'green' ? 'yellow' : 'green';
-
+  return current === "yellow"
+    ? "red"
+    : current === "green"
+    ? "yellow"
+    : "green";
 }
 
 //OR//
 
-
 function updateLight(c) {
-switch (c){
-case 'green': return 'yellow'; break;
-case 'yellow': return 'red'; break;
-case 'red': return 'green';
-}
+  switch (c) {
+    case "green":
+      return "yellow";
+      break;
+    case "yellow":
+      return "red";
+      break;
+    case "red":
+      return "green";
+  }
 }
