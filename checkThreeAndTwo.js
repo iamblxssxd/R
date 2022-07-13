@@ -7,6 +7,7 @@ Examples
 ["a", "b", "c", "b", "c"] ==> false // 1x "a", 2x "b" and 2x "c"
 ["a", "a", "a", "a", "a"] ==> false // 5x "a"
 */
+
 function checkThreeAndTwo(array) {
   let a = array.filter((value) => value.match("a")).length;
   let b = array.filter((value) => value.match("b")).length;
